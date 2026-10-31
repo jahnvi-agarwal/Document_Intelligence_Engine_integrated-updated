@@ -26,6 +26,7 @@ class Settings(BaseSettings):
         "http://127.0.0.1:3000",
         "http://127.0.0.1:8000",
         "http://127.0.0.1:5173",
+        "https://document-intelligence-engine-integrated-4f6f.onrender.com",
         # NOTE: Do NOT add "*" or "null" here in production — they bypass CORS security.
         # For production, restrict to your actual frontend domain(s) only.
     ]
